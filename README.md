@@ -17,4 +17,6 @@ To store the data, I created models called Article and NewsAPIResponse. I also p
 View to display the data. All of this is contained with ArticleRowView.swift. 
 
 To view the work, I recommend downloading the project and using XCode and its iPhone 
-simulator to build the code.  
+simulator to build the code. Please ignore all directories in main other than the one named
+'Alinea Clone'. The other directories were created by default in XCode when starting the
+project. All necessary files can be found within the 'Alinea Clone' directory.
