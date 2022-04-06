@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6227EA027F2DF890064EAA7 /* ui_icons in Resources */ = {isa = PBXBuildFile; fileRef = D6227E9F27F2DF890064EAA7 /* ui_icons */; };
+		D628C20727FD505E00FDE670 /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628C20627FD505E00FDE670 /* ArticleRowView.swift */; };
+		D628C20927FD65C100FDE670 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D628C20827FD65C100FDE670 /* README.md */; };
+		D628C20B27FD716C00FDE670 /* Section1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628C20A27FD716C00FDE670 /* Section1.swift */; };
+		D628C20D27FD71F800FDE670 /* Section2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628C20C27FD71F800FDE670 /* Section2.swift */; };
+		D63A33A127F2C87C00B4F48D /* garnett in Resources */ = {isa = PBXBuildFile; fileRef = D63A339F27F2C87B00B4F48D /* garnett */; };
+		D63A33A227F2C87C00B4F48D /* Inter in Resources */ = {isa = PBXBuildFile; fileRef = D63A33A027F2C87B00B4F48D /* Inter */; };
 		D679832027F18B8B006279AD /* Alinea_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679831F27F18B8B006279AD /* Alinea_CloneApp.swift */; };
 		D679832227F18B8B006279AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679832127F18B8B006279AD /* ContentView.swift */; };
 		D679832427F18B8D006279AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D679832327F18B8D006279AD /* Assets.xcassets */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6227E9F27F2DF890064EAA7 /* ui_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ui_icons; sourceTree = "<group>"; };
+		D628C20627FD505E00FDE670 /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
+		D628C20827FD65C100FDE670 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D628C20A27FD716C00FDE670 /* Section1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section1.swift; sourceTree = "<group>"; };
+		D628C20C27FD71F800FDE670 /* Section2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section2.swift; sourceTree = "<group>"; };
+		D63A339F27F2C87B00B4F48D /* garnett */ = {isa = PBXFileReference; lastKnownFileType = folder; path = garnett; sourceTree = "<group>"; };
+		D63A33A027F2C87B00B4F48D /* Inter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Inter; sourceTree = "<group>"; };
 		D679831C27F18B8B006279AD /* Alinea Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alinea Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D679831F27F18B8B006279AD /* Alinea_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alinea_CloneApp.swift; sourceTree = "<group>"; };
 		D679832127F18B8B006279AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,7 @@
 		D679833627F18B8D006279AD /* Alinea CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alinea CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D679833A27F18B8D006279AD /* Alinea_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alinea_CloneUITests.swift; sourceTree = "<group>"; };
 		D679833C27F18B8D006279AD /* Alinea_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alinea_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6CB241527F3FEA500E52A14 /* Alinea-Clone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alinea-Clone-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64C34ED27F4315B00FB8A32 /* View + Model */ = {
+			isa = PBXGroup;
+			children = (
+				D628C20627FD505E00FDE670 /* ArticleRowView.swift */,
+				D628C20A27FD716C00FDE670 /* Section1.swift */,
+				D628C20C27FD71F800FDE670 /* Section2.swift */,
+			);
+			path = "View + Model";
+			sourceTree = "<group>";
+		};
 		D679831327F18B8B006279AD = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +119,15 @@
 		D679831E27F18B8B006279AD /* Alinea Clone */ = {
 			isa = PBXGroup;
 			children = (
+				D6CB241527F3FEA500E52A14 /* Alinea-Clone-Info.plist */,
 				D679831F27F18B8B006279AD /* Alinea_CloneApp.swift */,
 				D679832127F18B8B006279AD /* ContentView.swift */,
+				D628C20827FD65C100FDE670 /* README.md */,
 				D679832327F18B8D006279AD /* Assets.xcassets */,
+				D64C34ED27F4315B00FB8A32 /* View + Model */,
+				D6227E9F27F2DF890064EAA7 /* ui_icons */,
+				D63A339F27F2C87B00B4F48D /* garnett */,
+				D63A33A027F2C87B00B4F48D /* Inter */,
 				D679832527F18B8D006279AD /* Preview Content */,
 			);
 			path = "Alinea Clone";
@@ -231,8 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D628C20927FD65C100FDE670 /* README.md in Resources */,
+				D6227EA027F2DF890064EAA7 /* ui_icons in Resources */,
+				D63A33A127F2C87C00B4F48D /* garnett in Resources */,
 				D679832727F18B8D006279AD /* Preview Assets.xcassets in Resources */,
 				D679832427F18B8D006279AD /* Assets.xcassets in Resources */,
+				D63A33A227F2C87C00B4F48D /* Inter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D628C20D27FD71F800FDE670 /* Section2.swift in Sources */,
 				D679832227F18B8B006279AD /* ContentView.swift in Sources */,
+				D628C20727FD505E00FDE670 /* ArticleRowView.swift in Sources */,
 				D679832027F18B8B006279AD /* Alinea_CloneApp.swift in Sources */,
+				D628C20B27FD716C00FDE670 /* Section1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,12 +460,14 @@
 				DEVELOPMENT_TEAM = 94DW3AQVB3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alinea-Clone-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,7 +477,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,12 +492,14 @@
 				DEVELOPMENT_TEAM = 94DW3AQVB3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alinea-Clone-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,7 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        
+        GeometryReader{ g in
+            ScrollView {
+                Section1()
+                Section2()
+                APIResponseView().environmentObject(Model())
+                    .frame(width: g.size.width - 2, height: g.size.height - 2, alignment: .center)
+            }
+        }
     }
 }
