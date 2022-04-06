@@ -1,8 +1,8 @@
 Clone Alinea Invest's Home Page
 
 There were 3 sections to this project.
-1. Your wealth is growing header
-2. Stack Category section
+1. Your Wealth is Growing Header
+2. Stack Category Section
 3. News
 
 Since all of the data for the first 2 sections was hardcoded, I resorted to hardcoding 
